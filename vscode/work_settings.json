@@ -1,0 +1,81 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.rulers": [
+    120
+  ],
+  "editor.tabSize": 2,
+  "errorLens.delay": 5000,
+  "files.associations": {
+    "*.thor": "ruby"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": true,
+    "scminput": false
+  },
+  "okteto.binary": "/Users/andy.goellner/.asdf/installs/okteto/2.10.3/bin/okteto",
+  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
+  "ruby.interpreter.commandPath": "/Users/andy.goellner/.asdf/shims/ruby",
+  "ruby.pathToBundler": "/Users/andy.goellner/.asdf/shims/bundler",
+  "ruby.rubocop.configFilePath": "./.rubocop.yml",
+  "ruby.rubocop.executePath": "/Users/andy.goellner/.asdf/shims/",
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "codeLens": true,
+    "completion": true,
+    "definition": false,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true
+  },
+  "rubyLsp.enableExperimentalFeatures": false,
+  "rubyLsp.formatter": "none",
+  "rubyLsp.rubyVersionManager": "asdf",
+  "scratchpads.autoPaste": false,
+  "scratchpads.scratchpadsFolder": "/Users/andy.goellner/code/scratch",
+  "security.workspace.trust.untrustedFiles": "open",
+  "solargraph.bundlerPath": "/Users/andy.goellner/.asdf/shims/bundler",
+  "solargraph.commandPath": "/Users/andy.goellner/.asdf/shims/solargraph",
+  "terminal.external.osxExec": "Warp.app",
+  "workbench.colorTheme": "Spinel",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.untitled.hint": "hidden"
+}

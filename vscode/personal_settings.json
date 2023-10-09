@@ -1,56 +1,117 @@
 {
-    "workbench.colorTheme": "GitHub Dark",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
-    },
-    "workbench.colorCustomizations": {
-        "tab.activeBorder": "#F8F9F9"
-    },
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
-    },
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.minimap.enabled": false,
-    "json.schemas": [],
-    "files.trimTrailingWhitespace": true,
-    "git.autofetch": true,
-    "editor.formatOnSave": true,
-    "python.formatting.provider": "black",
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        },
-        "editor.formatOnType": true
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.maxTokenizationLineLength": 2500
     },
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
-    "[javascript]": {
-        "editor.maxTokenizationLineLength": 2500,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "editor.inlineSuggest.enabled": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnType": true,
+        "editor.tabSize": 4
+    },
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.insertSpaces": true,
+        "editor.semanticHighlighting.enabled": true,
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers": [
+        120
+    ],
+    "editor.tabSize": 2,
+    "errorLens.delay": 5000,
+    "files.associations": {
+        "*.thor": "ruby"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": true,
+        "plaintext": true,
+        "scminput": false,
+        "yaml": true
+    },
+    "json.schemas": [],
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "okteto.binary": "/Users/andy.goellner/.asdf/installs/okteto/2.10.3/bin/okteto",
+    "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
+    "python.formatting.provider": "black",
     "redhat.telemetry.enabled": true,
+    "ruby.interpreter.commandPath": "/Users/andy.goellner/.asdf/shims/ruby",
+    "ruby.pathToBundler": "/Users/andy.goellner/.asdf/shims/bundler",
+    "ruby.rubocop.configFilePath": "./.rubocop.yml",
+    "ruby.rubocop.executePath": "/Users/andy.goellner/.asdf/shims/",
+    "rubyLsp.enabledFeatures": {
+        "codeActions": true,
+        "codeLens": true,
+        "completion": true,
+        "definition": false,
+        "diagnostics": true,
+        "documentHighlights": true,
+        "documentLink": true,
+        "documentSymbols": true,
+        "foldingRanges": true,
+        "formatting": true,
+        "hover": true,
+        "inlayHint": true,
+        "onTypeFormatting": true,
+        "selectionRanges": true,
+        "semanticHighlighting": true
+    },
+    "rubyLsp.enableExperimentalFeatures": false,
+    "rubyLsp.formatter": "none",
+    "rubyLsp.rubyVersionManager": "asdf",
+    "scratchpads.autoPaste": false,
+    "scratchpads.scratchpadsFolder": "/Users/andy.goellner/code/scratch",
+    "security.workspace.trust.untrustedFiles": "open",
+    "solargraph.bundlerPath": "/Users/andy.goellner/.asdf/shims/bundler",
+    "solargraph.commandPath": "/Users/andy.goellner/.asdf/shims/solargraph",
+    "terminal.external.osxExec": "Warp.app",
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#F8F9F9"
+    },
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "yaml.customTags": [
         "!And",
         "!And sequence",
@@ -79,12 +140,5 @@
         "!Select sequence",
         "!Split",
         "!Split sequence"
-    ],
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": true,
-        "plaintext": false,
-        "markdown": false
-    },
-    "editor.accessibilitySupport": "off"
+    ]
 }

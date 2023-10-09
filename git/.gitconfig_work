@@ -1,0 +1,12 @@
+[user]
+	name = Andy Goellner
+	email = andy.goellner@checkr.com
+	signingkey = #GPG_KEY
+[commit]
+	gpgsign = true
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = false
+[core]
+	excludesFile = ~/.gitignore

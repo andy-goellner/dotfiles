@@ -1,0 +1,13 @@
+[user]
+	name = Andy Goellner
+	email = agoellner@yahoo.com
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = ~/.gitignore
+
+[rebase]
+    autosquash = true
+
+[push]
+	autoSetupRemote = true

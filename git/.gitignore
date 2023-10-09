@@ -1,0 +1,5 @@
+config/definitions.rb
+.solargraph.yml
+local_scripts
+.env.development.local
+.DS_Store
